@@ -1,0 +1,103 @@
+body{
+    background-image: linear-gradient(to bottom, #c282b7, #bf8cbf, #42aca8, #7961bb, #2b0959);
+    background-attachment: fixed;
+}
+.c1{
+    background-image: linear-gradient(to right, #a15e5e, #ce7448, #de742e, #923e4b, #343125);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow:black;
+}
+.c1 h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+form{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+form input,textarea{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+form label{
+    font-size: 15px;
+    padding: 20px;
+}
+.sb{
+    padding:10px;
+    width:"100%";
+    cursor: pointer;
+    margin:5px;
+    border-radius: 5px;
+    border: 0px;
+    background-color:rgb(100, 218, 32);
+}
+.rs{
+    padding:10px;
+    width:"100%";
+    cursor: pointer;
+    margin:5px;
+    border-radius: 5px;
+    border: 0px;
+    background-color:rgb(223, 62, 13);
+}
+
+form button:hover{
+        background-color:rgb(65, 53, 107);
+        color:black;
+        transition-duration: 0.5s;
+}
+.lbl{
+    margin:0px;
+    padding: 0px;
+}
+table{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width:100%;
+}
+table,thead,th{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+tbody,tr,td{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    align-items: center;
+    border: 2px solid rgba(110, 49, 146, 0.922);
+    font-weight: bold;
+}
+table td{
+    background-color: aliceblue;
+}
+.edt{
+    padding:5px;
+    width:"100%";
+    cursor: pointer;
+    margin:2px;
+    border-radius: 5px;
+    border: 0px;
+    background-color:rgb(128, 57, 57);
+}
+.delt{
+    padding:5px;
+    width:"100%";
+    cursor: pointer;
+    margin:2px;
+    border-radius: 5px;
+    border: 0px;
+    background-color:rgb(152, 108, 96);
+}
